@@ -1,0 +1,21 @@
+{
+  "name": "reward-points-system",
+  "version": "1.0.0",
+  "description": "A Reward Points System smart contract built with Solidity and OpenZeppelin v5",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
